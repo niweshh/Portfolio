@@ -1,0 +1,187 @@
+@media (max-width:87.5em){
+  /* .hero{
+    max-width: 80em;
+  } */
+  html{
+    font-size: 90%;
+      }
+  .education-container{
+    max-width: 70em;
+  }
+  .about-container{max-width: 150em;}
+  .cta{max-width: 70em;}
+  .skills{
+    max-width: 100%;
+    justify-self: flex-end;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(3,4rem);
+   column-gap: 10px;
+row-gap: 5px;
+color: #fff;
+  
+  }
+  /* .footer */
+}
+
+@media (max-width:75em){
+  html{
+font-size: 80%;
+  }
+  /* .hero{
+    /* max-width: 75rem; */
+  
+  } */
+  .main_heading{
+    font-size: 4em;
+  }
+  .img-box{
+    width: 60%;
+  }
+  .education-container{
+    max-width: 75em;
+  }
+  .about-container{max-width: 75em;}
+  .cta{max-width: 75em;}
+}
+
+@media (max-width:65em){
+  html{
+font-size: 70%;
+
+  }
+}
+
+@media (max-width:65.5em){
+  html{
+font-size: 70%;
+font-weight: 550;
+  }
+.main{
+  height: 70em;
+}
+.education-container{
+  max-width: 50em;
+}
+.button{
+  justify-content: center;
+}
+  .hero{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .about-container{
+    grid-template-columns: 50rem;
+    justify-content: center;
+    row-gap: 6rem;
+    
+  }
+  .skills{
+    justify-self: center;
+  }
+  .img-box{
+    width: 40%;
+    justify-self: center;
+    
+  }
+  .cta{
+    grid-template-columns: 3fr 2fr;
+    max-width: 70em;
+
+  }
+  .cta-form{
+    grid-template-columns: 1fr;
+    row-gap: 3em;
+   
+  }
+  .cta-form input,
+.cta-form select {
+width: 100%;
+}
+.footer{
+  padding: 4em;
+  padding-bottom: 8em;
+}
+}
+
+@media (max-width:50.6em){
+.footer{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+row-gap: 10rem;
+
+}
+
+.footer-nav,.footer-contact{
+  grid-row: 1;
+  width: 100%;
+  
+}
+.footer-social{
+grid-column: span 2;
+
+}
+
+.cta{
+  grid-template-columns: 1fr;
+  max-width: 50rem;
+}
+}
+
+@media (max-width:37.5em){
+
+html{
+  font-size: 60%;
+}
+
+.education-container,.cta{
+  max-width: 37rem;
+}
+.tab{
+  padding: 1rem;
+}
+
+.main-nav{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 50%;
+  height: 100vh;
+justify-content: center;
+align-items: center;
+transform: translateX(100%);
+transition: all 0.3s;
+  padding-top: 3em;
+}
+.nav_list{
+  flex-direction: column;
+ gap: 5em;
+ font-size: 1.5em;
+}
+.burger{
+ 
+  padding: 0.5em;
+}
+.close{
+padding-left: 3em;
+padding-bottom: 2em;
+  font-size: 3em
+}
+
+.active{
+  transform: translateX(0);
+}
+.menu{
+  display: block;
+  cursor: pointer;
+}
+.menu-active{
+  display: none;
+}
+.close-active{
+  display: block;
+  cursor: pointer;
+}
+}
+
