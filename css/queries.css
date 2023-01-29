@@ -157,7 +157,7 @@ transition: all 0.3s;
 .nav_list{
   flex-direction: column;
  gap: 5em;
- font-size: 1.5em;
+ font-size: 1.55em;
 }
 .burger{
  
